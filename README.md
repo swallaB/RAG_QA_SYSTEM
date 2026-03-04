@@ -39,46 +39,51 @@ https://www.swiggy.com/investors
 
 # Quick Start
 
-Clone the repository:
+- Clone the repository:
 git clone <repo-url>
 cd swiggy-rag
-Create a virtual environment:
+
+- Create a virtual environment:
 
 
 python -m venv venv
 
 
-Activate environment:
+- Activate environment:
 
 Windows
 
 venv\Scripts\activate
 
 
-Install dependencies:
+- Install dependencies:
 
 
 pip install -r requirements.txt
-Add your Gemini API key in a `.env` file:
+
+- Add your Gemini API key in a `.env` file:
 
 
-GEMINI_API_KEY=your_api_key_here
+`GEMINI_API_KEY=your_api_key_here`
 
 
 ---
 
 # Run the System
 
-Step 1: Process the document and build the vector database
+- Step 1: Process the document and build the vector database
 
 
 python src/ingest.py
 
 
-Step 2: Start the question answering system
+- Step 2: Start the question answering system
 
 
 python src/rag.py
+
+---
+
 
 # Limitations
 

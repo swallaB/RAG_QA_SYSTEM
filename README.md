@@ -18,12 +18,12 @@ To reduce hallucinations, the system uses:
 **Format:** PDF  
 
 Source:  
-https://www.swiggy.com/investors
+https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Annual-Report-FY-2023-24.pdf
 
 ---
 
 # Architecture
-
+![Architecture](src/asset/arch_rag_system.png)
 
 # Tech Stack
 
@@ -48,25 +48,23 @@ https://www.swiggy.com/investors
 - Create a virtual environment:
 
 
-`python -m venv venv`
+  `python -m venv venv`
 
 
-- Activate environment:
+- Activate environment: Windows
 
-Windows
-
-`venv\Scripts\activate`
+  `venv\Scripts\activate`
 
 
 - Install dependencies:
 
 
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 
 - Add your Gemini API key in a `.env` file:
 
 
-`GEMINI_API_KEY=your_api_key_here`
+  `GEMINI_API_KEY=your_api_key_here`
 
 
 ---

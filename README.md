@@ -40,26 +40,28 @@ https://www.swiggy.com/investors
 # Quick Start
 
 - Clone the repository:
-git clone <repo-url>
-cd swiggy-rag
+
+  `git clone https://github.com/swallaB/RAG_QA_SYSTEM.git`
+
+  `cd swiggy-rag`
 
 - Create a virtual environment:
 
 
-python -m venv venv
+`python -m venv venv`
 
 
 - Activate environment:
 
 Windows
 
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 
 - Install dependencies:
 
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 - Add your Gemini API key in a `.env` file:
 
@@ -74,13 +76,13 @@ pip install -r requirements.txt
 - Step 1: Process the document and build the vector database
 
 
-python src/ingest.py
+`python src/ingest.py`
 
 
 - Step 2: Start the question answering system
 
 
-python src/rag.py
+`python src/rag.py`
 
 ---
 
@@ -95,5 +97,5 @@ python src/rag.py
 # Future Improvements
 
 - OCR support for scanned pages
-- Web interface (Streamlit / Gradio)
+- Web interface 
 - Hybrid retrieval methods
